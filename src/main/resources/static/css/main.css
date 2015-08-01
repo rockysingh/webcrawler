@@ -1,0 +1,15 @@
+.container {
+    font-family: Arial, Verdana, Helvetica, Sans-Serif;
+    width:auto;
+}
+.container h1 {
+    font-weight: 20px;
+}
+.container .link-container {
+    font-family: 12px;
+}
+
+.container .link-container a{
+    text-decoration: none;
+    color: black;
+}

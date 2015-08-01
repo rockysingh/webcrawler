@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Crawler SiteMap</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+<div class="container">
+    <h1>Sitemap</h1>
+    <div class="link-container" th:each="page : ${pageList}">
+       <a th:href="${page.url}"  th:text="${page.title}">My option</a>
+    </div>
+</div>
+</body>
+</html>

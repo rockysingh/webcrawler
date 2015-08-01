@@ -1,17 +1,17 @@
 I. Prequistes
 ------------
-Java 7 +
-Gradle 2.1 +
+* Java 7 +
+* Gradle 2.1 +
 
 II. Running Application
 ------------
-Make sure you have JAVA_HOME added to your bash profile environment path.
-Make sure you have GRADLE_HOME addded to your bash profile environment path.
-Checkout the project using GIT
-git clone [url of project]
-cd [folder name]
-"gradle run" - in the root folder to run the application
-"gradle test" - in the root folder to run the tests.
+1. Make sure you have JAVA_HOME added to your bash profile environment path.
+2. Make sure you have GRADLE_HOME addded to your bash profile environment path.
+3. Checkout the project using GIT
+4. git clone [url of project]
+5. cd [folder name]
+6. "gradle run" - in the root folder to run the application
+7. "gradle test" - in the root folder to run the tests.
 
 
 II. Design
